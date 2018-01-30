@@ -1,23 +1,37 @@
 # webrtc-android-demo-apprtc
 
-![demo](https://github.com/duqian291902259/webrtc-android-demo-apprtc/blob/master/screenshot/webrtc-android-demo-as-project.png)
-## How to start
-This demo is based on WebRTC.
-
 WebRTC is a free, open project.The source code of this demo is based on official samples(src/samples/androidapp). I have compiled webrtc source to get required .so and .jar files, so you can just build it by android studio.
 
-the official website: [https://webrtc.org/](https://webrtc.org/)
+![demo](https://github.com/duqian291902259/webrtc-android-demo-apprtc/blob/master/screenshot/webrtc-android-demo-as-project.png)
+
+## How to start
+This demo is based on WebRTC.the official website: [https://webrtc.org/](https://webrtc.org/)
+
+### How to build and run?
+Please clone this project,build it with android stuido,install the target apk files to your devices.
+
+### Overview 
+1，go to website : [https://appr.tc/](https://appr.tc/).input your room id(any number).
+
+![webrtc-server](https://github.com/duqian291902259/webrtc-android-demo-apprtc/blob/master/screenshot/appr.tc-webrtc-server.png)
+
+2，open the apprtc app,input the same room id.
+
+![webrtc-android-app](https://github.com/duqian291902259/webrtc-android-demo-apprtc/blob/master/screenshot/AppRTC-android-demo-p2p.png)
+
+3，Experience p2p connectivity with webrtc.
+
+![webrtc p2p connectivity ](https://github.com/duqian291902259/webrtc-android-demo-apprtc/blob/master/screenshot/AppRTC-connectivity.png)
+
 
 ### Development
-if you try to compile src of webrtc,you'll depressed 
+if you try to compile the source of webrtc,you'll depressed 
 at its large size,the total checkout size will be about 16 GB. and more than 30G after compiled.
 for more details about getting source code: [https://webrtc.org/native-code/android/](https://webrtc.org/native-code/android/)
 
-### How to build and run?
-Please clone this project,build it with android stuido,install the target apk files to your devices,input the same room id that you inputed in the 
-server website : [https://appr.tc/](https://appr.tc/)
+
 if you have installed all required softwares in linux.
-let's excute cmds like this:
+let's excute cmds like the follow tips:
 
 ```
 #!/bin/bash
@@ -68,18 +82,7 @@ exit 0
 # scp /Users/duqian/Downloads/webrtc_arm.sh nonolive@192.168.0.18:/home/nonolive/webrtc/android/
 ```
 
-### Overview 
-1，go to website : [https://appr.tc/](https://appr.tc/).input your room id(any number).
 
-![webrtc-server](https://github.com/duqian291902259/webrtc-android-demo-apprtc/blob/master/screenshot/appr.tc-webrtc-server.png)
-
-2，open the apprtc app,input the same room id.
-
-![webrtc-android-app](https://github.com/duqian291902259/webrtc-android-demo-apprtc/blob/master/screenshot/AppRTC-android-demo-p2p.png)
-
-3，Experience p2p connectivity with webrtc.
-
-![webrtc p2p connectivity ](https://github.com/duqian291902259/webrtc-android-demo-apprtc/blob/master/screenshot/AppRTC-connectivity.png)
 
 ### Future 
 Maybe I will share more articles about webrtc in the future.
